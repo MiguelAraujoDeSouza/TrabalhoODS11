@@ -1,0 +1,13 @@
+body{
+    background-color: ghostwhite;
+    font-style: Arial;
+    
+}
+p{
+    text-align: left;
+    font-size: 120%;
+}
+li{
+    font-style: Arial;
+    font-size: 20px;
+}
