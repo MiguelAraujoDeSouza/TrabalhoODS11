@@ -27,3 +27,22 @@ h4{
     color: orange;
     font-size: 14pt;
 }
+.abbr-with-img {
+    position: relative;
+}
+.abbr-with-img img {
+position: absolute;
+top: 100%;
+left: 0;
+display: none;
+width: 200px;
+}
+.abbr-with-img:hover img {
+display: block;
+}
+.teste {
+    color: orange;
+}
+.teste abc {
+    color: orange;
+}
