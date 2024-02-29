@@ -27,22 +27,21 @@ h4{
     color: orange;
     font-size: 14pt;
 }
+/* Em caso de duvida sobre o funcionamento, comentei */
 .abbr-with-img {
-    position: relative;
+    position: relative; 
+    /* Permite esse elemento ter elementos filhos */
 }
 .abbr-with-img img {
-position: absolute;
-top: 100%;
-left: 0;
-display: none;
-width: 200px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    /* Oculta a imagem, até a interação com o cursor */
+    width: 200px;
+    /* possiciona a imagem embaixo da abreviação (abbr) e muda o tamanho da imagem */
 }
 .abbr-with-img:hover img {
-display: block;
-}
-.teste {
-    color: orange;
-}
-.teste abc {
-    color: orange;
+    display: block;
+    /* Mostra a imagem quando ocorre a interação com o cursor*/
 }
